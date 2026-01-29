@@ -7,7 +7,7 @@ Custom PHP-CS-Fixer configuration package with custom fixers and rulesets for Fu
 This package provides:
 
 - **Custom Fixers**: Custom fixers mainly for specific brace positioning
-- **Custom RuleSet**: Pre-configured `@Breathe` ruleset based on PSR-12
+- **Custom RuleSet**: Pre-configured `@fullsmack/breathe` ruleset based on PSR-12
 - **Easy Integration**: Simple to use in your projects
 
 ## Installation
@@ -72,7 +72,7 @@ return $config
         new RuleSet\Breathe(),
     ])
     ->setRules([
-        '@Breathe' => true,
+        '@fullsmack/breathe' => true,
         // Override or add additional rules here
     ])
     ->setFinder($finder);
@@ -89,7 +89,7 @@ $config = \FullSmack\PhpCsFixerBreathe\Config::create();
 
 return $config
     ->setRules([
-        '@Breathe' => true,
+        '@fullsmack/breathe' => true,
         'no_unused_imports' => true, // Override default
         'ordered_imports' => [
             'imports_order' => ['class', 'function', 'const'],
@@ -102,27 +102,27 @@ return $config
 
 This package includes the following custom fixers:
 
-### Breathe/match_brace_same_line
+### fullsmack/match_brace_same_line
 Ensures `match` expression opening braces are on the same line.
 
-### Breathe/try_brace_same_line
+### fullsmack/try_brace_same_line
 Ensures `try` block opening braces are on the same line.
 
-### Breathe/catch_on_new_line
+### fullsmack/catch_on_new_line
 Places `catch` statements on a new line after the closing brace of the try block.
 
-### Breathe/else_on_new_line
+### fullsmack/else_on_new_line
 Places `else` statements on a new line after the closing brace of the if block.
 
-### Breathe/empty_catch_body_same_line
+### fullsmack/empty_catch_body_same_line
 Handles formatting of empty catch blocks.
 
-### Breathe/method_return_type_brace_regex
+### fullsmack/method_return_type_brace_regex
 Applies regex-based formatting for method return type braces.
 
-## The @Breathe RuleSet
+## The @fullsmack/breathe RuleSet
 
-The `@Breathe` ruleset extends `@PSR12` with additional rules:
+The `@fullsmack/breathe` ruleset extends `@PSR12` with additional rules:
 
 - Custom brace positioning for control structures and functions
 - Specific import handling

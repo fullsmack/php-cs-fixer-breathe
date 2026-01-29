@@ -10,7 +10,7 @@ final class Breathe implements RuleSetDefinitionInterface
 {
     public function getName(): string
     {
-        return '@Breathe';
+        return '@fullsmack/breathe';
     }
 
     public function getRules(): array
@@ -49,12 +49,12 @@ final class Breathe implements RuleSetDefinitionInterface
                 'on_multiline' => 'ensure_fully_multiline',
             ],
             // Custom fixers
-            'Breathe/match_brace_same_line' => true,
-            'Breathe/try_brace_same_line' => true,
-            'Breathe/catch_on_new_line' => true,
-            'Breathe/else_on_new_line' => true,
-            'Breathe/empty_catch_body_same_line' => true,
-            'Breathe/method_return_type_brace_regex' => true,
+            'fullsmack/match_brace_same_line' => true,
+            'fullsmack/try_brace_same_line' => true,
+            'fullsmack/catch_on_new_line' => true,
+            'fullsmack/else_on_new_line' => true,
+            'fullsmack/empty_catch_body_same_line' => true,
+            'fullsmack/method_return_type_brace_regex' => true,
         ];
     }
 

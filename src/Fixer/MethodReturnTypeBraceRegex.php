@@ -78,6 +78,6 @@ class Example
 
     public function getName(): string
     {
-        return 'FullSmack/PhpCsFixerConfig/Fixer/method_return_type_brace_regex';
+        return 'fullsmack/method_return_type_brace_regex';
     }
 }

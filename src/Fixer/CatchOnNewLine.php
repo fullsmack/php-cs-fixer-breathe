@@ -182,6 +182,6 @@ try {
 
     public function getName(): string
     {
-        return 'FullSmack/PhpCsFixerConfig/Fixer/catch_on_new_line';
+        return 'fullsmack/catch_on_new_line';
     }
 }

@@ -109,6 +109,6 @@ $result = match ($value)
 
     public function getName(): string
     {
-        return 'FullSmack/PhpCsFixerConfig/Fixer/match_brace_same_line';
+        return 'fullsmack/match_brace_same_line';
     }
 }

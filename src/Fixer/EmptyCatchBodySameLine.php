@@ -123,6 +123,6 @@ try {
 
     public function getName(): string
     {
-        return 'FullSmack/PhpCsFixerConfig/Fixer/empty_catch_body_same_line';
+        return 'fullsmack/empty_catch_body_same_line';
     }
 }

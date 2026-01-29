@@ -43,7 +43,7 @@ final class Config extends BaseConfig
         $config = new self();
 
         $config->setRules([
-            '@Breathe' => true,
+            '@fullsmack/breathe' => true,
         ]);
 
         return $config;

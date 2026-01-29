@@ -105,6 +105,6 @@ try
 
     public function getName(): string
     {
-        return 'FullSmack/PhpCsFixerConfig/Fixer/try_brace_same_line';
+        return 'fullsmack/try_brace_same_line';
     }
 }

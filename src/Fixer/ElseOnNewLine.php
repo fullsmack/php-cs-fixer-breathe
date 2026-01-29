@@ -164,6 +164,6 @@ if ($condition) {
 
     public function getName(): string
     {
-        return 'FullSmack/PhpCsFixerConfig/Fixer/else_on_new_line';
+        return 'fullsmack/else_on_new_line';
     }
 }
