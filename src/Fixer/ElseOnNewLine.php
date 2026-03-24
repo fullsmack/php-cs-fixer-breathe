@@ -164,6 +164,6 @@ if ($condition) {
 
     public function getName(): string
     {
-        return 'fullsmack/else_on_new_line';
+        return 'Fullsmack/else_on_new_line';
     }
 }

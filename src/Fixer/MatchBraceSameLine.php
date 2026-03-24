@@ -109,6 +109,6 @@ $result = match ($value)
 
     public function getName(): string
     {
-        return 'fullsmack/match_brace_same_line';
+        return 'Fullsmack/match_brace_same_line';
     }
 }

@@ -78,6 +78,6 @@ class Example
 
     public function getName(): string
     {
-        return 'fullsmack/method_return_type_brace_regex';
+        return 'Fullsmack/method_return_type_brace_regex';
     }
 }

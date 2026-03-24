@@ -102,22 +102,22 @@ return $config
 
 This package includes the following custom fixers:
 
-### fullsmack/match_brace_same_line
+### Fullsmack/match_brace_same_line
 Ensures `match` expression opening braces are on the same line.
 
-### fullsmack/try_brace_same_line
+### Fullsmack/try_brace_same_line
 Ensures `try` block opening braces are on the same line.
 
-### fullsmack/catch_on_new_line
+### Fullsmack/catch_on_new_line
 Places `catch` statements on a new line after the closing brace of the try block.
 
-### fullsmack/else_on_new_line
+### Fullsmack/else_on_new_line
 Places `else` statements on a new line after the closing brace of the if block.
 
-### fullsmack/empty_catch_body_same_line
+### Fullsmack/empty_catch_body_same_line
 Handles formatting of empty catch blocks.
 
-### fullsmack/method_return_type_brace_regex
+### Fullsmack/method_return_type_brace_regex
 Applies regex-based formatting for method return type braces.
 
 ## The @fullsmack/breathe RuleSet

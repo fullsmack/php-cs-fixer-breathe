@@ -182,6 +182,6 @@ try {
 
     public function getName(): string
     {
-        return 'fullsmack/catch_on_new_line';
+        return 'Fullsmack/catch_on_new_line';
     }
 }

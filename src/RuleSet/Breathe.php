@@ -49,12 +49,12 @@ final class Breathe implements RuleSetDefinitionInterface
                 'on_multiline' => 'ensure_fully_multiline',
             ],
             // Custom fixers
-            'fullsmack/match_brace_same_line' => true,
-            'fullsmack/try_brace_same_line' => true,
-            'fullsmack/catch_on_new_line' => true,
-            'fullsmack/else_on_new_line' => true,
-            'fullsmack/empty_catch_body_same_line' => true,
-            'fullsmack/method_return_type_brace_regex' => true,
+            'Fullsmack/match_brace_same_line' => true,
+            'Fullsmack/try_brace_same_line' => true,
+            'Fullsmack/catch_on_new_line' => true,
+            'Fullsmack/else_on_new_line' => true,
+            'Fullsmack/empty_catch_body_same_line' => true,
+            'Fullsmack/method_return_type_brace_regex' => true,
         ];
     }
 

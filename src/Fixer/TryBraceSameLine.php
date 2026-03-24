@@ -105,6 +105,6 @@ try
 
     public function getName(): string
     {
-        return 'fullsmack/try_brace_same_line';
+        return 'Fullsmack/try_brace_same_line';
     }
 }

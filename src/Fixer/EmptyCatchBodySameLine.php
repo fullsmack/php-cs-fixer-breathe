@@ -123,6 +123,6 @@ try {
 
     public function getName(): string
     {
-        return 'fullsmack/empty_catch_body_same_line';
+        return 'Fullsmack/empty_catch_body_same_line';
     }
 }
